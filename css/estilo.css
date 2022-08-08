@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2? family = Raleway: wght @ 100; 200; 400; 700 & display = swap');
+
+:root{
+    --cor-base-texto: #333333;
+    --cor-verde: #2EAD0E;
+    --cor-roxo-escuro: #850088;
+    --cor-roxo-claro: #A10088;
+    --cor-azul-escuro: #6013A3;
+    --cor-azul-claro: #9828FA;
+    --cor-verde-escuro: #71FA28;
+    --cor-verde-claro: #84FF42;
+    --cor-verde-agua-claro: #2ECAD9;
+    --cor-verde-agua-escuro: #00838F;
+    --cor-de-fundo: #D9752E;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ html,
+ body{
+     font-family: 'Raleway', sans-serif;
+     background-color: var(--cor-de-fundo);
+ }
+
+.flex{
+    display: flex;
+}
+
+footer{
+    width: 100%;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.container-nome{
+    flex-direction: column;
+    height: 230;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.titulo-secao{
+    background-color: var(--cor-verde-agua-escuro);
+    font-size: 1rem;
+    padding: 1rem 0;
+    text-align: left;
+}
+
+.container-arejado{
+    padding: 2rem;
+}
+
+section p{
+    line-height: 2rem;
+}
+
+section li{
+    text-align: left;
+    line-height: 2rem;
+}
+
+.container-arejado .margem-inferior{
+    margin-bottom: 2rem;
+}
+
+.foto-perfil{
+    border-radius: 100%;
+    max-width: 200px;
+    border: 5px solid var(--cor-verde-agua-claro);
+}
+
+#projeto{
+    align-items: center;
+    height: 400px;
+    overflow: hidden;
+}
+
+#projeto img{
+    width: 90%;
+}
+
+#container-img-endereco{
+    background-color: var(--cor-verde-escuro);
+}
+
+#link-endereco{
+    background-color: var(--cor-verde-claro);
+}
+
+#container-img-telefone{
+    background-color: var(--cor-roxo-escuro);
+}
+
+#link-telefone{
+    background-color: var(--cor-roxo-claro);
+}
+
+#container-img-email{
+    background-color: var(--cor-azul-escuro);
+}
+
+#link-email{
+    background-color: var(--cor-azul-claro);
+}
+
+.linha{
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    transition: all ease-in-out .2s;
+}
+
+.linha:hover{
+    transform: scale(1.025);
+}
+
+.linha a{
+    align-self: center;
+    color: #FFFFFF;
+    flex: 6;
+    line-height: 4rem;
+    padding-left: 1rem;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+}
+
+.container-img{
+    align-items: center;
+    box-shadow: inset 0 0 10px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.container-img img{
+    height: 1.5rem;
+}
